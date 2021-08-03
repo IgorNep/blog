@@ -1,9 +1,13 @@
+import { Environment } from './interface';
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
+export const environment: Environment = {
+  production: false,
+  apiKey: 'AIzaSyCRrrUcx4aEC9Y4Ar0kjHBSIJUT8RpJjH0',
+  fbDbUrl:
+    'https://angular-blog-2997c-default-rtdb.europe-west1.firebasedatabase.app',
 };
 
 /*
